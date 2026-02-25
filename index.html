@@ -113,9 +113,20 @@
   </section>
 
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-  <df-messenger intent="WELCOME" chat-title="ClinicAppointmentBot" agent-id="e3074f97-ddca-47e8-8deb-3dc28ed62835"
+  <df-messenger intent="WELCOME"
+    chat-title="ClinicAppointmentBot" 
+    agent-id="e3074f97-ddca-47e8-8deb-3dc28ed62835"
     language-code="en"></df-messenger>
-
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+  }
+</style>
   <!-- Footer -->
   <footer>
     <p>&copy; 2026 Dr. Malik Yousaf Awan Therapy. All rights reserved.</p>
@@ -124,5 +135,6 @@
 
   <script src="script.js"></script>
 </body>
+
 
 </html>
